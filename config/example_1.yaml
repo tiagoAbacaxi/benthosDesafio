@@ -1,0 +1,12 @@
+input:
+  gibberish:
+    length: 80
+
+pipeline:
+  processors:
+  - throttle:
+      period: 1s
+  - reverse: {}
+
+output:
+  blue_stdout: {}
