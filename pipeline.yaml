@@ -1,0 +1,14 @@
+# Config fields, showing default values
+input:
+  generate:
+    mapping: root = {"key":"value"}
+    count: 1
+
+pipeline:
+  processors:
+  - log:
+      level: INFO
+      message: ${!this}
+
+output:
+  s_supabase: {}
