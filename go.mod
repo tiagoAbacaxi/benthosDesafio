@@ -1,6 +1,6 @@
 module github.com/benthosdev/benthos-plugin-example
 
-go 1.21.5
+go 1.18
 
 require (
 	github.com/benthosdev/benthos/v4 v4.10.0
