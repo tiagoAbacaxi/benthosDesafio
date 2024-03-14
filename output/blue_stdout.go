@@ -27,7 +27,7 @@ type supabaseOutput struct {
 
 func (output *supabaseOutput) Connect(ctx context.Context) error {
 	// URL da API do Supabase
-	supabaseUrl := "https://oodqfgyraszhlkxfpyix.supabase.co"
+	supabaseUrl := "https://oodqfgyraszhlkxfpyix.supabase.com"
 	// Chave de serviço do Supabase
 	supabaseKey := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9vZHFmZ3lyYXN6aGxreGZweWl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDM3ODgxMzgsImV4cCI6MjAxOTM2NDEzOH0.rgxURjxGIjw1kceuM3WywUY_-GrWwwtMdHmWK9gTL4s"
 
